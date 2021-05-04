@@ -1,0 +1,150 @@
+.navbar {
+    background-color: #06283D!important;
+    border-radius: 0px 0px 45px 45px;
+    height: 170px;
+    position: relative;
+    min-height: 135px;
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 201px;
+    height: 70px;
+}
+
+.nav-link {
+    font: normal normal normal 18px/25px montserratRegular;
+    font-weight: lighter;
+    line-height: 0.72;
+    color: white!important;
+    text-transform: uppercase;
+}
+
+.toRight {
+    margin: auto;
+}
+
+.toLeft {
+    margin: auto;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.nav-item-point a:hover:after {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    content: "•";
+    font-size: 30px;
+    animation: fadeIn 1s;
+}
+
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        // top: 80px;
+    }
+}
+
+.dropdown-menu {
+    background-color: #06283D;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.active:after {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    content: "•";
+    font-size: 30px;
+}
+
+.activeDrop {
+    background-color: #06283D;
+}
+
+.dropdown-menu .dropdown-item {
+    text-transform: uppercase;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: white !important;
+    background-color: #06283D !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item .active a {
+    color: white !important;
+    background-color: #06283D !important;
+}
+
+.navbar-collapse {
+    border: 45px!important;
+}
+
+@media only screen and(max-width: 768px) {
+    .navbar {
+        min-height: 90px;
+        border-radius: 0px 0px 0px 0px;
+        height: 90px;
+    }
+    .navbar-brand {
+        margin-right: auto;
+        padding-right: 40px;
+    }
+    .navbar-brand img {
+        width: 103px;
+        height: 45px;
+    }
+}

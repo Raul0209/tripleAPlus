@@ -1,0 +1,88 @@
+.responsiveImg {
+    width: 100%;
+    height: auto;
+}
+
+.mainTitle {
+    text-align: center;
+    letter-spacing: 3px;
+    color: #06283D;
+    text-transform: uppercase;
+    font: 75px montserratSemiBold;
+}
+
+.textList {
+    text-align: justify;
+    font: 18px montserratRegular;
+    letter-spacing: 0.72px;
+    color: #000000;
+    opacity: 1;
+    line-height: 40px;
+}
+
+.textUnderList {
+    font: 18px montserratRegular;
+    letter-spacing: 0.72px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.montserratSemiBold {
+    font-family: montserratSemiBold;
+}
+
+.montserratRegular {
+    font-family: montserratRegular
+}
+
+.container-text {
+    max-width: 550px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerDiv {
+    margin: auto;
+}
+
+.imgStyle {
+    width: 904px;
+    height: auto;
+}
+
+@media only screen and(max-width: 768px) {
+    .mainTitle {
+        text-align: center;
+        letter-spacing: 0.88pt;
+        color: #06283D;
+        text-transform: uppercase;
+        font: 22pt montserratSemiBold;
+    }
+    .hiddeInMobile {
+        visibility: hidden;
+    }
+    .customT {
+        padding-top: 0rem!important;
+    }
+    .customB {
+        padding-bottom: 0rem!important;
+    }
+    .container-text {
+        max-width: 80%
+    }
+    .textList {
+        text-align: left;
+        font: 11pt montserratRegular;
+        letter-spacing: 0.44pt;
+        color: #000000;
+        opacity: 1;
+        line-height: 40pt;
+    }
+    .textUnderList {
+        font: 11pt montserratRegular;
+        letter-spacing: 0.44pt;
+        line-height: 18pt;
+        text-align: left;
+    }
+}

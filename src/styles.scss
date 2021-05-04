@@ -1,0 +1,127 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "montserratSemiBold";
+    src: url("./assets/fonts/montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "montserratMedium";
+    src: url("./assets/fonts/montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: "montserratRegular";
+    src: url("./assets/fonts/montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "montserratBold";
+    src: url("./assets/fonts/montserrat/Montserrat-Bold.ttf");
+}
+
+.jumbotron-custom {
+    width: 100%;
+    margin-top: -40px;
+    height: auto;
+}
+
+.jumbotron-grey {
+    background-color: #E4E4E4;
+}
+
+.jumbotron-blue {
+    background-color: #06283D;
+}
+
+.responsiveVideo {
+    width: 100%;
+    height: auto;
+}
+
+.mainTitleBlue {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 25px;
+    color: #06283D;
+    text-transform: uppercase;
+    font: 75px montserratSemiBold;
+}
+
+.mainTitleBlack {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    font: 75px montserratSemiBold;
+}
+
+.mainSubTitle {
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    font-style: italic;
+    font-size: 30px;
+    font-family: montserratMedium;
+    // font-weight: ;
+}
+
+.mainText {
+    letter-spacing: 0.72px!important;
+    line-height: 40px;
+    text-align: justify!important;
+    font-family: montserratRegular !important;
+}
+
+.montserratSemiBold {
+    font-family: montserratSemiBold;
+}
+
+.montserratRegular {
+    font-family: montserratRegular !important;
+}
+
+.container-text {
+    max-width: 1020px;
+}
+
+.centerDiv {
+    margin: auto;
+}
+
+.video {
+    width: 966px!important;
+    height: 554px!important;
+}
+
+@media only screen and(max-width: 768px) {
+    .jumbotron-custom {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 0px;
+        height: auto;
+    }
+    .mainTitleBlack {
+        text-align: center;
+        letter-spacing: 0.88pt;
+        line-height: 25pt;
+        color: #000000;
+        text-transform: uppercase;
+        font: 22pt montserratSemiBold;
+    }
+    .mainSubTitle {
+        text-align: center;
+        letter-spacing: 0.44pt;
+        line-height: 13pt;
+        font-style: italic;
+        font-size: 11pt;
+        font-family: montserratMedium;
+        // font-weight: ;
+    }
+    .container-text {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

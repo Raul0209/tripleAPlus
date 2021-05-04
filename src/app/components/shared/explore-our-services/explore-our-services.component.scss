@@ -1,0 +1,51 @@
+@mixin content-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.centerContent {
+    text-align: center;
+}
+
+.exploreTitle {
+    text-align: center;
+    color: #06283D;
+    font-family: montserratSemiBold;
+}
+
+.row {
+    margin: auto;
+    max-width: 90%;
+}
+
+.svgBox {
+    border: 3px solid #07273D;
+    border-radius: 33px;
+    width: 220px;
+    height: 220px;
+    padding: 30px;
+    @include content-center();
+}
+
+img {
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+
+.col p {
+    text-align: center;
+    letter-spacing: 0.48px;
+    color: #06283D;
+    font-size: 12px;
+    font-family: montserratSemiBold;
+}
+
+.svgIcon {
+    width: 85px;
+    height: 85px;
+}
+
+.hand {
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.textFinal {
+    text-align: center;
+    font: normal normal 500 25px/35px montserratMedium;
+    letter-spacing: 1px;
+    color: #06283D;
+}
+
+.btn-custom {
+    background-color: #06283D!important;
+    width: 324px;
+    height: 85px;
+    border: 3px solid #07273D;
+    border-radius: 17px;
+    color: white;
+    text-align: center;
+    font: normal normal 500 25px/26px montserratMedium;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media only screen and(max-width: 768px) {
+    .textFinal {
+        text-align: center;
+        font: normal normal 500 11pt/20pt montserratMedium;
+        letter-spacing: 0.48pt;
+        color: #06283D;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .btn-custom {
+        background-color: #06283D!important;
+        width: 160pt;
+        height: 50pt;
+        border: 3pt solid #07273D;
+        border-radius: 10pt;
+        color: white;
+        text-align: center;
+        font: normal normal 500 14pt/26pt montserratMedium;
+        letter-spacing: 0.56pt;
+        text-transform: uppercase;
+    }
+}

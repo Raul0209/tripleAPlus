@@ -1,0 +1,39 @@
+.svgText {
+    width: 187px;
+    height: 163px;
+}
+
+.confidentialityTitle {
+    text-align: left;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    font: 30px montserratSemiBold;
+}
+
+.confidentialityText {
+    text-align: left;
+    font: normal normal normal 18px/35px montserratRegular;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.montserratSemiBold {
+    font-family: montserratSemiBold;
+}
+
+.montserratRegular {
+    font-family: montserratRegular !important;
+}
+
+.container-text {
+    max-width: 825px;
+    text-align: left;
+}
+
+.centerDiv {
+    margin: auto;
+}

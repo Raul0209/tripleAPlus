@@ -1,0 +1,155 @@
+.responsiveImg {
+    width: 100%;
+    height: auto;
+}
+
+.jumbotronCustom {
+    width: 100%;
+    max-width: 100%;
+    margin-top: -40px;
+    height: auto;
+}
+
+.manImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.container {
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.withoutBorder {
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.fontBrown {
+    color: #06283D
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1;
+    font-family: montserratRegular;
+    /* Firefox */
+}
+
+.jumbotron-grey {
+    background-color: #06283D;
+}
+
+.jumbotron-fluid {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleInput {
+    color: #fcfdfd
+}
+
+.btn {
+    color: black;
+    background-color: white;
+}
+
+.titleColor {
+    color: #06283D
+}
+
+input {
+    background-color: #06283D;
+    color: white;
+}
+
+.centerButton {
+    text-align: center;
+}
+
+.centerButton button {
+    width: 324px;
+    height: 85px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 17px;
+}
+
+.inputheight {
+    height: 65px;
+}
+
+.textareaStyle {
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    height: 388px;
+    background-color: #06283D;
+    color: white;
+}
+
+//CSS FUNCIONAL
+.titleContactUs {
+    color: #06283D;
+    font-size: 75px;
+    font-family: montserratSemiBold;
+    line-height: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.container-text {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textUnderImage {
+    text-align: left!important;
+    font: normal normal normal 18px/40px montserratRegular;
+    letter-spacing: 0.72px;
+    color: #000000;
+    opacity: 1;
+}
+
+.containerUnderImage {
+    width: 740px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.containerContact {
+    width: 1195px!important;
+    background-color: #06283D;
+}
+
+.titleInputsContact {
+    text-align: left;
+    font: normal normal bold 30px/25px montserratBold;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.container-contact-us {
+    width: 921px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleInput {
+    text-align: left;
+    font: normal normal normal 18px/21px montserratRegular;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
