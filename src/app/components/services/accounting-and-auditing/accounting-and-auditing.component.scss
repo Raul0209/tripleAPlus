@@ -8,3 +8,36 @@
     letter-spacing: 0.72px;
     text-align: left;
 }
+
+@media only screen and(max-width: 768px) {
+    .corporateTitle {
+        text-align: center;
+        letter-spacing: 0.88pt;
+        color: #06283D;
+        text-transform: uppercase;
+        font-size: 22pt;
+    }
+    .corporateSubtitle {
+        text-align: center;
+        letter-spacing: 0.44pt;
+        color: #06283D;
+        opacity: 1;
+        font-size: 11pt;
+    }
+    .containerHeader {
+        max-width: 150pt;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .corporateText {
+        text-align: justify;
+        font: normal normal normal 11pt/18pt montserratRegular;
+        letter-spacing: 0.44pt;
+        padding-top: 0rem!important;
+    }
+    .container-text {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+    }
+}

@@ -61,3 +61,44 @@
     padding-left: 10px;
     padding-bottom: 0;
 }
+
+@media only screen and(max-width: 768px) {
+    .text-jumbotron {
+        text-align: center;
+        font: normal normal 400 11pt/15pt montserratSemiBold;
+        letter-spacing: 0.44pt;
+        color: #FFFFFF;
+        opacity: 1;
+        max-width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .svgAdjust {
+        max-width: 20px;
+        max-height: 20px;
+    }
+    .container-icons {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: montserratSemiBold;
+    }
+    .sub-container-icons {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mobile-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 85%;
+    }
+    .textFinal {
+        font: normal normal 400 8pt/25px montserratSemiBold;
+        text-align: center;
+    }
+    .svgFont {
+        font-family: montserratSemiBold;
+        font-size: 13pt;
+    }
+}
